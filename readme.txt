@@ -22,10 +22,9 @@ The i-Dump Sidebar Widget will show down your uploaded photos made with your iPh
 
 == Frequently Asked Questions ==
 
-= My widget area is all messed up when I activate this plugin? =
+= My widget is not working? =
 
 That could be possible, because you will need to <a target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">download the i-Dump plugin</a> first before you can run this widget.
-This problem will be solved soon enough...
 
 = What do I need to make the i-Dump Sidebar Widget work? =
 

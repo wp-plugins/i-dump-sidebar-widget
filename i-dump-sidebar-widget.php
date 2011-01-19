@@ -80,17 +80,17 @@ class iDump_Sidebar_Widget extends WP_Widget {
         echo '<div class="idump-sidebar-widget">';
 
         /* Check if the idump table is present and count the images */
-        $querycount = "SELECT id FROM `iphoto`";
-        $sqlcount = @mysql_query($querycount);
-        $count = @mysql_num_rows($sqlcount);
-
-        if ( ! $count ) {
-            printf(__('<span style="color:red;">ERROR: <a class="error" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump iPhone Photo Uploader</a> is not installed or you have no pictures added yet.</span>'));
-        } 
+        //$querycount = "SELECT id FROM `iphoto`";
+        //$sqlcount = @mysql_query($querycount);
+        //$count = @mysql_num_rows($sqlcount);
+		
+        //if ( ! $count ) {
+        //   printf(__('<span style="color:red;"><strong>ERROR!</strong><br/><a class="error" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump iPhone Photo Uploader</a> is not installed or you have no pictures added yet.</span>'));
+        //} 
 
         $query = "SELECT * FROM `iphoto` ORDER BY `id` DESC LIMIT " . $limit;
         $sql = mysql_query($query);
-        
+		
         while ($record = mysql_fetch_object($sql)){
 
            // $time = date('d-m-Y', $record->date);
@@ -170,12 +170,12 @@ class iDump_Sidebar_Widget extends WP_Widget {
         </p>  
         
         <?php
-        $querycount = "SELECT id FROM `iphoto`";
-        $sqlcount = mysql_query($querycount) or die ( mysql_error( ) );
-        $count = mysql_num_rows($sqlcount);
+		//$querycount = "SELECT id FROM `iphoto`";
+		//$sqlcount = mysql_query($querycount) or die ( mysql_error( ) );
+		//$count = mysql_num_rows($sqlcount);
         ?>
   
-        <small>There are <?=$count;?> pictures in your database.</small>
+        <!--<small>There are <?//=$count;?> pictures in your database.</small>-->
 
 
 
