@@ -26,7 +26,7 @@ If you have any questions about the i-Dump Sidebar Widget, you can find us on ht
 
 == Screenshots ==
 
-- No screenshots
+1. The working i-Dump Sidebar Widget
 
 == Changelog ==
 
