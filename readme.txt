@@ -34,19 +34,25 @@ First of all you need an iPhone with the WP-Dump application on it (you can down
 Then you will need the i-Dump plugin as well, because the i-Dump Sidebar Widget is an expanding feature of the i-Dump plugin.
 Last but not least, it would be nice to have the Easy Fancybox plugin. That will show down your pictures perfectly!
 
+= When I click on a picture, it opens in the same window and looks bad? =
+
+Correct, the default settings for showing a picture are bad looking. We have a great solution for that: download the Easy Fancybox plugin for a great view when you clicked on a picture.
+
 == Screenshots ==
 
 1. The working i-Dump Sidebar Widget
 
 == Changelog ==
 
-= 1.0 =
-This version of i-Dump Sidebar Widget, will be only working with the WP-Dump application for iPhone and the i-Dump plugin.
+= Version 1.0 =
+This version of i-Dump Sidebar Widget, will be working correctly with the WP-Dump application for iPhone and the i-Dump plugin.
+The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
 
-Version 1.0
+Version 1.1
 
 == About this Widget ==
 
-For this plugin you need the WP-Dump application, available in the AppStore on the iPhone and the i-Dump plugin.
+This version of i-Dump Sidebar Widget, will be working correctly with the WP-Dump application for iPhone and the i-Dump plugin.
+The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
