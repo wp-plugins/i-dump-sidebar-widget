@@ -22,7 +22,17 @@ The i-Dump Sidebar Widget will show down your uploaded photos made with your iPh
 
 == Frequently Asked Questions ==
 
-If you have any questions about the i-Dump Sidebar Widget, you can find us on http://www.i-dump.info.
+= My widget area is all messed up when I activate this plugin? =
+
+That could be possible, because you will need to download the i-Dump plugin first before you can run this widget.
+This problem will be solved soon enough...
+
+= What do I need to make the i-Dump Sidebar Widget work? =
+
+You will need 2 things for sure, and 1 thing as option.
+First of all you need an iPhone with the WP-Dump application on it (you can download that app in the AppStore).
+Then you will need the i-Dump plugin as well, because the i-Dump Sidebar Widget is an expanding feature of the i-Dump plugin.
+Last but not least, it would be nice to have the Easy Fancybox plugin. That will show down your pictures perfectly!
 
 == Screenshots ==
 

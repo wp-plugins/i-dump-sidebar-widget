@@ -80,13 +80,12 @@ class iDump_Sidebar_Widget extends WP_Widget {
         echo '<div class="idump-sidebar-widget">';
 
         /* Check if the idump table is present and count the images */
-
         $querycount = "SELECT id FROM `iphoto`";
         $sqlcount = @mysql_query($querycount);
         $count = @mysql_num_rows($sqlcount);
 
         if ( ! $count ) {
-            printf(__('ERROR: <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump iPhone Photo Uploader</a> not installed or no pictures added.'));
+            printf(__('<span style="color:red;">ERROR: <a class="error" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump iPhone Photo Uploader</a> is not installed or you have no pictures added yet.</span>'));
         } 
 
         $query = "SELECT * FROM `iphoto` ORDER BY `id` DESC LIMIT " . $limit;
