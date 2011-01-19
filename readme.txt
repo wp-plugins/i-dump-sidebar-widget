@@ -24,7 +24,7 @@ The i-Dump Sidebar Widget will show down your uploaded photos made with your iPh
 
 = My widget is not working? =
 
-That could be possible, because you will need to <a target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">download the i-Dump plugin</a> first before you can run this widget.
+That could be possible, because you will need to download the <a target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> first before you can run this widget.
 
 = What do I need to make the i-Dump Sidebar Widget work? =
 
@@ -35,7 +35,7 @@ Last but not least, it would be nice to have the <a target="_blank" href="http:/
 
 = When I click on a picture, it opens in the same window and looks bad? =
 
-Correct, the default settings for showing a picture are bad looking. We have a great solution for that: <a target="_blank" href="http://wordpress.org/extend/plugins/easy-fancybox/">Download the Easy Fancybox plugin</a> for a great view when you clicked on a picture.
+Correct, the default settings for showing a picture are bad looking. We have a great solution for that: Download the <a target="_blank" href="http://wordpress.org/extend/plugins/easy-fancybox/">Easy Fancybox plugin</a> for a great view when you clicked on a picture.
 
 == Screenshots ==
 
