@@ -36,7 +36,7 @@ Last but not least, it would be nice to have the Easy Fancybox plugin. That will
 
 = When I click on a picture, it opens in the same window and looks bad? =
 
-Correct, the default settings for showing a picture are bad looking. We have a great solution for that: download the Easy Fancybox plugin for a great view when you clicked on a picture.
+Correct, the default settings for showing a picture are bad looking. We have a great solution for that: <a target="_blank" href="http://wordpress.org/extend/plugins/easy-fancybox/">Download the Easy Fancybox plugin</a> for a great view when you clicked on a picture.
 
 == Screenshots ==
 
