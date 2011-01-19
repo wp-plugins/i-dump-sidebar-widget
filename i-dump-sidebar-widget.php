@@ -51,7 +51,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
 	 */
 	function iDump_Sidebar_Widget() {
 		/* Widget settings. */
-		$widget_ops = array( 'classname' => 'idump-sidebar-widget', 'description' => __('You need the \'i-Dump\' plugin before you can let this widget work.', 'example') );
+		$widget_ops = array( 'classname' => 'idump-sidebar-widget', 'description' => __('You need the i-Dump plugin before you can let this widget work.', 'example') );
 
 		/* Widget control settings. */
 		$control_ops = array( 'width' => 250, 'height' => 350, 'id_base' => 'idump-sidebar-widget' );
