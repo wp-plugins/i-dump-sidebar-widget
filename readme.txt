@@ -1,10 +1,10 @@
 === i-Dump Sidebar Widget ===
-Contributors: Joey Schuurbiers, Maarten Keizer
+Contributors: Joey Schuurbiers
 Donate link: http://www.i-dump.info
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 4.3
+Stable tag: 1.1
 
 The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar.
 
