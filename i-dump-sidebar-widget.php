@@ -29,7 +29,7 @@ function idump_load_widgets() {
 }
 
 function my_css() {
-    echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/i-dump-sidebar-widget/css/styles.css" />' . "\n";
+    echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/i-dump-sidebar-widget/style.css" />' . "\n";
 }
 
 add_action('wp_head', 'my_css');
@@ -140,18 +140,22 @@ class iDump_Sidebar_Widget extends WP_Widget {
 		<div class="extra">
             <small><a target="_blank" href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">Do you already have the WP-Dump application on your iPhone?</a></small> 
         </div>
-        <div class="title">>
+		<br/>
+        <div class="title">
             <label for="widget-recent-posts-__i__-title">Title:</label> 
         	<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>" />
         </div>
+		<br/>
 		<div class="limit">
             <label for="widget-recent-posts-__i__-number">Number of photos to show:</label><br /> 
     		<input id="<?php echo $this->get_field_id( 'limit' ); ?>" name="<?php echo $this->get_field_name( 'limit' ); ?>" type="text" value="<?php echo $instance['limit']; ?>" size="3" />
         </div>
+		<br/>
 		<div class="size">
             <label for="widget-recent-posts-__i__-number">Width:</label><br /> 
     		<input id="<?php echo $this->get_field_id( 'width' ); ?>" name="<?php echo $this->get_field_name( 'width' ); ?>" type="text" value="<?php echo $instance['width']; ?>" size="3" />
         </div>
+		<br/>
 		<div class="size">
             <label for="widget-recent-posts-__i__-number">Height:</label><br /> 
     		<input id="<?php echo $this->get_field_id( 'height' ); ?>" name="<?php echo $this->get_field_name( 'height' ); ?>" type="text" value="<?php echo $instance['height']; ?>" size="3" />

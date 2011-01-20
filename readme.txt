@@ -4,7 +4,7 @@ Donate link: http://www.i-dump.info
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 4.3
+Stable tag: 1.1
 
 The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar.
 
@@ -50,9 +50,11 @@ For more information or suggestions you can <a href="mailto:development@webdesig
 
 = Version 1.1 =
 * Bug fixed: When you don't have the i-Dump plugin, the i-Dump Sidebar Widget will disappear and your widget area will not crash as before.
+* This version of i-Dump Sidebar Widget, will be working correctly with the WP-Dump application for iPhone and the i-Dump plugin.
+The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 = Version 1.0 =
-This version of i-Dump Sidebar Widget, will be working correctly with the WP-Dump application for iPhone and the i-Dump plugin.
+* This version of i-Dump Sidebar Widget, will be working correctly with the WP-Dump application for iPhone and the i-Dump plugin.
 The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
