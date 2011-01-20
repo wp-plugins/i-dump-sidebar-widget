@@ -18,7 +18,7 @@ The i-Dump Sidebar Widget will show down your uploaded photos made with your iPh
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to 'Appearance' -> 'Widgets' into your WordPress Menu, and see the new 'i-Dump Sidebar Widget' widget.
 4. Setup your desired settings, so how many pictures you want to show down into your sidebar and what will be the 'width' and 'height' for all pictures.
-5. <strong>Caution:</strong> Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> for WordPress and download the <a href="http://itunes.apple.com/nl/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> on your iPhone before you can run the i-Dump Sidebar Widget!
+5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> for WordPress and download the <a href="http://itunes.apple.com/nl/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> on your iPhone before you can run the i-Dump Sidebar Widget!
 
 == Frequently Asked Questions ==
 
@@ -49,7 +49,7 @@ For more information or suggestions you can <a href="mailto:development@webdesig
 == Changelog ==
 
 = Current: Version 1.1 =
-* Bug fixed: When you don't have the i-Dump plugin, the i-Dump Sidebar Widget will disappear and your widget area will not crash as before.
+* <strong>Bug fixed</strong>: When you don't have the i-Dump plugin, the i-Dump Sidebar Widget will disappear and your widget area will not crash as before.
 * This version of i-Dump Sidebar Widget, will be working correctly with the WP-Dump application for iPhone and the i-Dump plugin.
 The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
