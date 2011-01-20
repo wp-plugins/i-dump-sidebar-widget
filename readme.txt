@@ -43,7 +43,8 @@ For more information or suggestions you can <a href="mailto:development@webdesig
 
 == Screenshots ==
 
-1. The working i-Dump Sidebar Widget
+1. The working i-Dump Sidebar Widget: Front-End
+2. The working i-Dump Sidebar Widget: Back-End
 
 == Changelog ==
 
