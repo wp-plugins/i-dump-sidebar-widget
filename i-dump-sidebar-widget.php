@@ -29,7 +29,7 @@ function idump_load_widgets() {
 }
 
 function my_css() {
-    echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/i-dump-sidebar-widget/css/styles.css" />' . "\n";
+    echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/i-dump-sidebar-widget/style.css" />' . "\n";
 }
 
 add_action('wp_head', 'my_css');
