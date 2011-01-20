@@ -16,3 +16,7 @@ text-decoration:none;
 color:#00ADEE;
 text-decoration:underline;
 }
+.size{
+float:left;
+width:65px;
+}

@@ -28,14 +28,11 @@ function idump_load_widgets() {
 	register_widget( 'iDump_Sidebar_Widget' );
 }
 
-
 function my_css() {
     echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/i-dump-sidebar-widget/css/styles.css" />' . "\n";
 }
 
 add_action('wp_head', 'my_css');
-
-
 
 /**
  * i-Dump Sidebar Widget class.
@@ -105,10 +102,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
   
         echo '</div>';
         
-
-
      //   printf( '<div class="link-to-album"><a href="' . $idumpurl . '">' . __('View all %1$s photos', 'count') . '</a></div>', $count );
-
 
 		/* After widget (defined by themes). */
 		echo $after_widget;
@@ -138,36 +132,30 @@ class iDump_Sidebar_Widget extends WP_Widget {
 
         ?>
         
-
-
         <?php
 		/* Set up some default widget settings. */
 		$defaults = array( 'title' => __('i-Dump Sidebar Widget', 'title'), 'limit' => __('4', 'limit'), 'width' => __('80', 'width'), 'height' => __('80','height') );
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
-		<p>
+		<div class="extra">
             <small><a target="_blank" href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">Do you already have the WP-Dump application on your iPhone?</a></small> 
-        </p>
-		
-        <p>
+        </div>
+        <div class="title">>
             <label for="widget-recent-posts-__i__-title">Title:</label> 
         	<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>" />
-        </p> 
- 
-		<p>
+        </div>
+		<div class="limit">
             <label for="widget-recent-posts-__i__-number">Number of photos to show:</label><br /> 
     		<input id="<?php echo $this->get_field_id( 'limit' ); ?>" name="<?php echo $this->get_field_name( 'limit' ); ?>" type="text" value="<?php echo $instance['limit']; ?>" size="3" />
-        </p>
-        
-		<p>
+        </div>
+		<div class="size">
             <label for="widget-recent-posts-__i__-number">Width:</label><br /> 
     		<input id="<?php echo $this->get_field_id( 'width' ); ?>" name="<?php echo $this->get_field_name( 'width' ); ?>" type="text" value="<?php echo $instance['width']; ?>" size="3" />
-        </p>
-        
-		<p>
+        </div>
+		<div class="size">
             <label for="widget-recent-posts-__i__-number">Height:</label><br /> 
     		<input id="<?php echo $this->get_field_id( 'height' ); ?>" name="<?php echo $this->get_field_name( 'height' ); ?>" type="text" value="<?php echo $instance['height']; ?>" size="3" />
-        </p>  
+        </div>  
         
         <?php
 		//$querycount = "SELECT id FROM `iphoto`";
@@ -177,11 +165,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
   
         <!--<small>There are <?//=$count;?> pictures in your database.</small>-->
 
-
-
 	<?php
 	}
   }
-
-
 ?>
