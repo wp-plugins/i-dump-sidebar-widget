@@ -1,5 +1,5 @@
 === i-Dump Sidebar Widget ===
-Contributors: Joey Schuurbiers
+Contributors: Joey Schuurbiers, Maarten Keizer
 Donate link: http://www.i-dump.info
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone
 Requires at least: 3.0
