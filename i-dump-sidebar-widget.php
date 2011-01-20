@@ -137,28 +137,35 @@ class iDump_Sidebar_Widget extends WP_Widget {
 		$defaults = array( 'title' => __('i-Dump Sidebar Widget', 'title'), 'limit' => __('4', 'limit'), 'width' => __('80', 'width'), 'height' => __('80','height') );
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
-		<div class="extra">
-            <small><a target="_blank" href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">Do you already have the WP-Dump application on your iPhone?</a></small> 
-        </div>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td><small><a target="_blank" href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">Do you already have the WP-Dump application on your iPhone?</a></small><td>
+			</tr>
+		</table>
 		<br/>
-        <div class="title">
-            <label for="widget-recent-posts-__i__-title">Title:</label> 
-        	<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>" />
-        </div>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td><label for="widget-recent-posts-__i__-title">Title:</label></td>
+			</tr>
+			<tr>
+				<td><input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" style="width:222px;" value="<?php echo $instance['title']; ?>" /></td>
+			</tr>
+		</table>
 		<br/>
-		<div class="limit">
-            <label for="widget-recent-posts-__i__-number">Number of photos to show:</label><br /> 
-    		<input id="<?php echo $this->get_field_id( 'limit' ); ?>" name="<?php echo $this->get_field_name( 'limit' ); ?>" type="text" value="<?php echo $instance['limit']; ?>" size="3" />
-        </div>
-		<br/>
-		<div class="size">
-            <label for="widget-recent-posts-__i__-number">Width:</label><br /> 
-    		<input id="<?php echo $this->get_field_id( 'width' ); ?>" name="<?php echo $this->get_field_name( 'width' ); ?>" type="text" value="<?php echo $instance['width']; ?>" size="3" />
-        </div>
-		<div class="size">
-            <label for="widget-recent-posts-__i__-number">Height:</label><br /> 
-    		<input id="<?php echo $this->get_field_id( 'height' ); ?>" name="<?php echo $this->get_field_name( 'height' ); ?>" type="text" value="<?php echo $instance['height']; ?>" size="3" />
-        </div>  
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td><label style="float:left;width:174px;" for="widget-recent-posts-__i__-number">Amount to show:</label></td>
+				<td><input id="<?php echo $this->get_field_id( 'limit' ); ?>" name="<?php echo $this->get_field_name( 'limit' ); ?>" type="text" value="<?php echo $instance['limit']; ?>" size="3" /></td>
+			</tr>
+			<tr>
+				<td><label style="float:left;width:174px;" for="widget-recent-posts-__i__-number">Width:</label></td>
+				<td><input id="<?php echo $this->get_field_id( 'width' ); ?>" name="<?php echo $this->get_field_name( 'width' ); ?>" type="text" value="<?php echo $instance['width']; ?>" size="3" /></td>
+			</tr>
+			<tr>
+				<td><label style="float:left;width:174px;" for="widget-recent-posts-__i__-number">Height:</label></td>
+				<td><input id="<?php echo $this->get_field_id( 'height' ); ?>" name="<?php echo $this->get_field_name( 'height' ); ?>" type="text" value="<?php echo $instance['height']; ?>" size="3" /></td>
+			</tr>
+		</table>
         
         <?php
 		//$querycount = "SELECT id FROM `iphoto`";
