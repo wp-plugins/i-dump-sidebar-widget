@@ -1,7 +1,7 @@
 === i-Dump Sidebar Widget ===
 Contributors: Joey Schuurbiers
 Donate link: http://www.i-dump.info
-Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone
+Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images
 Requires at least: 3.0
 Tested up to: 3.0
 Stable tag: 1.1
