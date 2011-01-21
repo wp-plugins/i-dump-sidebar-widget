@@ -58,7 +58,7 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 == Upgrade Notice == 
 
 = Version 1.1 =
-* Bug fixed: When you don't have the i-Dump plugin, the i-Dump Sidebar Widget will disappear and your widget area will not crash as before.
+* <strong>Bug fixed</strong>: When you don't have the i-Dump plugin, the i-Dump Sidebar Widget will disappear and your widget area will not crash as before.
 
 == About this Widget ==
 
