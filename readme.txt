@@ -6,7 +6,7 @@ Requires at least: 3.0
 Tested up to: 3.0
 Stable tag: 1.1.3
 
-The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar.
+The i-Dump Sidebar Widget will show your pictures into your sidebar. You'll need the i-Dump plugin first!
 
 == Description ==
 
