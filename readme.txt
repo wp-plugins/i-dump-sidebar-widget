@@ -4,7 +4,7 @@ Donate link: http://www.i-dump.info
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.1
+Stable tag: 1.1.3
 
 The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar.
 
@@ -18,13 +18,13 @@ The i-Dump Sidebar Widget will show down your uploaded photos made with your iPh
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to 'Appearance' -> 'Widgets' into your WordPress Menu, and see the new 'i-Dump Sidebar Widget' widget.
 4. Setup your desired settings, so how many pictures you want to show down into your sidebar and what will be the 'width' and 'height' for all pictures.
-5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> for WordPress and download the <a href="http://itunes.apple.com/nl/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> on your iPhone before you can run the i-Dump Sidebar Widget!
+5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.3) for WordPress and download the <a href="http://itunes.apple.com/nl/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> on your iPhone before you can run the i-Dump Sidebar Widget!
 
 == Frequently Asked Questions ==
 
 = My widget is not working? =
 
-That could be possible, because you will need to download the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> first before you can run this widget.
+That could be possible, because you will need to download the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.3) first before you can run this widget.
 
 = What do I need to make the i-Dump Sidebar Widget work? =
 
@@ -48,7 +48,10 @@ For more information or suggestions you can <a href="mailto:development@webdesig
 
 == Changelog ==
 
-= Current: Version 1.1 =
+= Current: Version 1.1.3 =
+* <strong>Compatility</strong>: The i-Dump Sidebar Widget is now compatible with the i-Dump plugin v1.1.3
+
+= Version 1.1 =
 * <strong>Bug fixed</strong>: When you don't have the i-Dump plugin, the i-Dump Sidebar Widget will disappear and your widget area will not crash as before.
 
 = Version 1.0 =
@@ -57,8 +60,8 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
 
-= Version 1.1 =
-* <strong>Bug fixed</strong>: When you don't have the i-Dump plugin, the i-Dump Sidebar Widget will disappear and your widget area will not crash as before.
+= Version 1.1.3 =
+* <strong>Compatility</strong>: The i-Dump Sidebar Widget is now compatible with the i-Dump plugin v1.1.3
 
 == About this Widget ==
 
