@@ -24,7 +24,7 @@ The i-Dump Sidebar Widget will show your pictures into your sidebar. Of course y
 
 = My widget is not working? =
 
-That could be possible, because you will need to download the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.3) first before you can run this widget.
+That could be possible, because you will need to download the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.3) first before you can run this widget. If it's still not working, you could have the old WP-Dump application on your iPhone (v1.0), you must have update that version tot v1.1 for sure.
 
 = What do I need to make the i-Dump Sidebar Widget work? =
 
@@ -65,7 +65,7 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == About this Widget ==
 
-This version of i-Dump Sidebar Widget, will be working correctly with the WP-Dump application for iPhone and the i-Dump plugin.
-The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
+This version of i-Dump Sidebar Widget (v1.1.3), will be working correctly with the WP-Dump application for iPhone (v1.1) and the i-Dump plugin (v1.1.3).
+The i-Dump plugin (v1.1.3) is a must have for running the i-Dump Sidebar Widget (v1.1.3).
 
 For more information or suggestions you can <a href="mailto:development@webdesign-support.nl">contact the developer</a> of the i-Dump Sidebar Widget.
