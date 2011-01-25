@@ -72,7 +72,7 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == About this Widget ==
 
-This version of i-Dump Sidebar Widget (v1.1.5), will be working correctly with the WP-Dump application (v1.1) for iPhone and the i-Dump plugin for WordPress (v1.1.4 and higher).
+This version of i-Dump Sidebar Widget (v1.1.5), will be working correctly with the WP-Dump application (v1.1) for iPhone and the i-Dump plugin (v1.1.4 and higher).
 The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 For more information or suggestions you can <a href="mailto:development@webdesign-support.nl">contact the developer</a> of the i-Dump Sidebar Widget.
