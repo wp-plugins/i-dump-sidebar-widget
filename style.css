@@ -9,10 +9,10 @@ background-color:#F8F8F8;
 background-color:#00ADEE;
 }
 .error{
-color:#00ADEE;
+color:red;
 text-decoration:none;
 }
 .error:hover{
-color:#00ADEE;
+color:red;
 text-decoration:underline;
 }
