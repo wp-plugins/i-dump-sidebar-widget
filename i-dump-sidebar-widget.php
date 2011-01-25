@@ -88,6 +88,9 @@ class iDump_Sidebar_Widget extends WP_Widget {
         $query = "SELECT * FROM `iphoto` ORDER BY `id` DESC LIMIT " . $limit;
         $sql = mysql_query($query);
 		
+		$result = mysql_query(" SHOW TABLES LIKE 'iphoto' ");
+		if( mysql_num_rows($result) ) {
+
         while ($record = mysql_fetch_object($sql)){
 
            // $time = date('d-m-Y', $record->date);
@@ -99,7 +102,10 @@ class iDump_Sidebar_Widget extends WP_Widget {
                         
             echo '<a href="' . $file . '"><img src="' . $filethumb . '" alt="' . $time . '" width="' . $width . '" height="' . $height . '" /></a>';
         }
-  
+  } else {
+	echo 'Please install <a target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump Plugin</a> first';	
+
+ }
         echo '</div>';
         
      //   printf( '<div class="link-to-album"><a href="' . $idumpurl . '">' . __('View all %1$s photos', 'count') . '</a></div>', $count );

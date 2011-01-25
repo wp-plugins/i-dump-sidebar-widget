@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QWSSG
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images
 Requires at least: 3.0
 Tested up to: 3.0.4
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 
 The i-Dump Sidebar Widget will show your pictures into your sidebar. You'll need the i-Dump plugin first.
 
@@ -48,7 +48,10 @@ For more information or suggestions you can <a href="mailto:development@webdesig
 
 == Changelog ==
 
-= Current: Version 1.1.4 =
+= Current: Version 1.1.5 =
+* <strong>Bug fixed</strong>: If you've installed i-Dump Sidebar Widget first, instead of install the i-Dump plugin first, you'll get an error in your sidebar on the front, instead of a crash from i-Dump Sidebar Widget.
+
+= Version 1.1.4 =
 * Small bugs fixed
 * <strong>Compatility</strong>: The i-Dump Sidebar Widget is now compatible with the i-Dump plugin v1.1.4 and higher.
 
@@ -64,13 +67,12 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
 
-= Version 1.1.4 =
-* Small bugs fixed
-* <strong>Compatility</strong>: The i-Dump Sidebar Widget is now compatible with the i-Dump plugin v1.1.4 and higher.
+= Version 1.1.5 =
+* <strong>If database not exist</strong>: If you install i-Dump Sidebar Widget first, instead of install the i-Dump plugin first, you'll get an error in your sidebar on the front.
 
 == About this Widget ==
 
-This version of i-Dump Sidebar Widget (v1.1.4), will be working correctly with the WP-Dump application (v1.1) for iPhone and the i-Dump plugin for WordPress (v1.1.4 and higher).
+This version of i-Dump Sidebar Widget (v1.1.5), will be working correctly with the WP-Dump application (v1.1) for iPhone and the i-Dump plugin for WordPress (v1.1.4 and higher).
 The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 For more information or suggestions you can <a href="mailto:development@webdesign-support.nl">contact the developer</a> of the i-Dump Sidebar Widget.
