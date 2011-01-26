@@ -103,7 +103,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
             echo '<a href="' . $file . '"><img src="' . $filethumb . '" alt="' . $time . '" width="' . $width . '" height="' . $height . '" /></a>';
         }
   } else {
-	echo 'Please install <a class="error" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump Plugin</a> first';
+	echo 'Please install <a class="error_widget" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump Plugin</a> first';
 
  }
         echo '</div>';

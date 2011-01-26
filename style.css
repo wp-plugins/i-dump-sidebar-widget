@@ -8,11 +8,11 @@ background-color:#F8F8F8;
 .idump-sidebar-widget a:hover img{
 background-color:#00ADEE;
 }
-.error{
+.error_widget{
 color:red;
 text-decoration:none;
 }
-.error:hover{
+.error_widget:hover{
 color:red;
 text-decoration:underline;
 }
