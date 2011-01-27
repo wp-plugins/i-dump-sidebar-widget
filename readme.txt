@@ -31,11 +31,11 @@ That could be possible, because you will need to download the <a href="http://wo
 You will need 2 things for sure, and 1 thing as option.
 First of all you need an iPhone with the <a href="http://itunes.apple.com/nl/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> on it (you can download that app in the AppStore).
 Then you will need the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> as well, because the i-Dump Sidebar Widget is an expanding feature of the i-Dump plugin.
-Last but not least, it would be nice to have the <a href="http://wordpress.org/extend/plugins/easy-fancybox/">Easy Fancybox plugin</a>. That will show down your pictures perfectly!
+Last but not least, it would be nice to have the <a href="http://wordpress.org/extend/plugins/fancybox-for-wordpress/">Fancybox for WordPress</a> plugin. That will show down your pictures perfectly!
 
 = When I click on a picture, it opens in the same window and looks bad? =
 
-Correct, the default settings for showing a picture are bad looking. We have a great solution for that: Download the <a href="http://wordpress.org/extend/plugins/easy-fancybox/">Easy Fancybox plugin</a> for a great view when you clicked on a picture.
+Correct, the default settings for showing a picture are bad looking. We have a great solution for that: Download the <a href="http://wordpress.org/extend/plugins/fancybox-for-wordpress/">Fancybox for WordPress</a> plugin for a great view when you clicked on a picture.
 
 = I have another question? =
 
