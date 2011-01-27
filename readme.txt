@@ -18,7 +18,7 @@ The i-Dump Sidebar Widget will show your pictures into your sidebar. Of course y
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to 'Appearance' -> 'Widgets' into your WordPress Menu, and see the new 'i-Dump Sidebar Widget' widget.
 4. Setup your desired settings, so how many pictures you want to show down into your sidebar and what will be the 'width' and 'height' for all pictures.
-5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.4 and higher) for WordPress and download the <a href="http://itunes.apple.com/nl/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> (v1.1) on your iPhone before you can run the i-Dump Sidebar Widget!
+5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.4 and higher) for WordPress and download the <a href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> (v1.1) on your iPhone before you can run the i-Dump Sidebar Widget!
 
 == Frequently Asked Questions ==
 
@@ -29,7 +29,7 @@ That could be possible, because you will need to download the <a href="http://wo
 = What do I need to make the i-Dump Sidebar Widget work? =
 
 You will need 2 things for sure, and 1 thing as option.
-First of all you need an iPhone with the <a href="http://itunes.apple.com/nl/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> on it (you can download that app in the AppStore).
+First of all you need an iPhone with the <a href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> on it (you can download that app in the AppStore).
 Then you will need the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> as well, because the i-Dump Sidebar Widget is an expanding feature of the i-Dump plugin.
 Last but not least, it would be nice to have the <a href="http://wordpress.org/extend/plugins/fancybox-for-wordpress/">Fancybox for WordPress</a> plugin. That will show down your pictures perfectly!
 
