@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QWSSG
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images
 Requires at least: 3.0
 Tested up to: 3.0.4
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 
 The i-Dump Sidebar Widget will show your pictures into your sidebar. You'll need the i-Dump plugin first.
 
@@ -17,7 +17,7 @@ The i-Dump Sidebar Widget will show your pictures into your sidebar. Of course y
 1. Upload the `i-dump-sidebar-widget` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to 'Appearance' -> 'Widgets' into your WordPress Menu, and see the new 'i-Dump Sidebar Widget' widget.
-4. Setup your desired settings, so how many pictures you want to show down into your sidebar and what will be the 'width' and 'height' for all pictures.
+4. Setup your desired settings, so how many pictures you want to show down into your sidebar, what will be the 'width' and 'height' for all pictures and the CSS for your pictures.
 5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.4 and higher) for WordPress and download the <a href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> (v1.1) on your iPhone before you can run the i-Dump Sidebar Widget!
 
 == Frequently Asked Questions ==
@@ -48,8 +48,11 @@ For more information or suggestions you can <a href="mailto:development@i-dump.i
 
 == Changelog ==
 
-= Current: Version 1.1.6 =
-<strong>CSS bug fixed</strong>: Some themes didn't support the CSS that was included, so some of you had problems with the overflow of the Widget. It's now compatible with all themes, so problem solved.
+= Current: Version 1.1.7 =
+* <strong>Extra feature</strong>: You can style your own border on your i-Dump Sidebar Widget pictures. You can check this out by going to the Appearance -> Widgets -> i-Dump Sidebar Widget.
+
+= Version 1.1.6 =
+* <strong>CSS bug fixed</strong>: Some themes didn't support the CSS that was included, so some of you had problems with the overflow of the Widget. It's now compatible with all themes, so problem solved.
 
 = Version 1.1.5 =
 * <strong>Bug fixed</strong>: If you've installed i-Dump Sidebar Widget first, instead of install the i-Dump plugin first, you'll get an error in your sidebar on the front, instead of a crash from i-Dump Sidebar Widget.
@@ -70,12 +73,12 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
 
-= Version 1.1.6 =
-<strong>CSS bug fixed</strong>: Some themes didn't support the CSS that was included, so some of you had problems with the overflow of the Widget. It's now compatible with all themes, so problem solved.
+= Version 1.1.7 =
+* <strong>Extra feature</strong>: You can style your own border on your i-Dump Sidebar Widget pictures. You can check this out by going to the Appearance -> Widgets -> i-Dump Sidebar Widget.
 
 == About this Widget ==
 
-This version of i-Dump Sidebar Widget (v1.1.6), will be working correctly with the WP-Dump application (v1.1) for iPhone and the i-Dump plugin (v1.1.4 and higher).
+This version of i-Dump Sidebar Widget (v1.1.7), will be working correctly with the WP-Dump application (v1.1) for iPhone and the i-Dump plugin (v1.1.4 and higher).
 The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 For more information or suggestions you can <a href="mailto:development@i-dump.info">contact the developer</a> of the i-Dump Sidebar Widget.

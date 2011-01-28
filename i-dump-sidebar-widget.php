@@ -3,7 +3,7 @@
  * Plugin Name: i-Dump Sidebar Widget
  * Plugin URI: http://wordpress.org/extend/plugins/i-dump-sidebar-widget
  * Description: The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar. Of course you can setup your desired settings for the Widget. For this plugin you need the WP-Dump application, available in the AppStore on the iPhone and the i-Dump plugin.
- * Version: 1.1.6
+ * Version: 1.1.7
  * Author: Joey Schuurbiers
  * Author URI: http://www.webdesign-support.com
  *
@@ -36,11 +36,7 @@ overflow:hidden;
 .idump-sidebar-widget img{
 margin:0 5px 5px 0;
 float:left;
-padding:2px 2px 2px 2px;
 background-color:#F8F8F8;
-}
-.idump-sidebar-widget a:hover img{
-background-color:#00ADEE;
 }
 .error_widget{
 color:red;
@@ -52,7 +48,6 @@ text-decoration:underline;
 }
 </style>";
 }
-
 
 add_action('wp_head', 'my_css');
 
@@ -121,8 +116,11 @@ class iDump_Sidebar_Widget extends WP_Widget {
             $filethumb = $blog_url . '/wp-content/uploads/i-dump-uploads/thumbnails/' . $record->file;
             $width = $instance['width'];
             $height = $instance['height'];
+			$bordercolor = $instance['bordercolor'];
+			$borderpx = $instance['borderpx'];
+			$borderstyle = $instance['borderstyle'];
                         
-            echo '<a href="' . $file . '"><img src="' . $filethumb . '" alt="' . $time . '" width="' . $width . '" height="' . $height . '" /></a>';
+            echo '<a href="' . $file . '"><img style="border:' . $borderpx . 'px ' . $borderstyle . ' ' . $bordercolor . ';" src="' . $filethumb . '" alt="' . $time . '" width="' . $width . '" height="' . $height . '" /></a>';
         }
   } else {
 	echo 'Please install <a class="error_widget" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump Plugin</a> first';
@@ -147,6 +145,9 @@ class iDump_Sidebar_Widget extends WP_Widget {
 		$instance['limit'] = strip_tags( $new_instance['limit'] );
         $instance['height'] = strip_tags( $new_instance['height'] );
         $instance['width'] = strip_tags( $new_instance['width'] );
+		$instance['bordercolor'] = strip_tags( $new_instance['bordercolor'] );
+		$instance['borderpx'] = strip_tags( $new_instance['borderpx'] );
+		$instance['borderstyle'] = strip_tags( $new_instance['borderstyle'] );
 
 		return $instance;
 	}
@@ -162,15 +163,14 @@ class iDump_Sidebar_Widget extends WP_Widget {
         
         <?php
 		/* Set up some default widget settings. */
-		$defaults = array( 'title' => __('i-Dump Sidebar Widget', 'title'), 'limit' => __('4', 'limit'), 'width' => __('80', 'width'), 'height' => __('80','height') );
+		$defaults = array( 'title' => __('i-Dump Sidebar Widget', 'title'), 'limit' => __('4', 'limit'), 'width' => __('80', 'width'), 'height' => __('80','height'), 'bordercolor' => __('#00ADEE','bordercolor'), 'borderpx' => __('2','borderpx'), 'borderstyle' => __('solid','borderstyle'));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 		<table cellspacing="" cellpadding="0" border="0">
 			<tr>
-				<td style="text-align:center;"><small><a target="_blank" href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">Do you already have the WP-Dump application on your iPhone?</a></small><td>
+				<td class="widtitle" style="background-color:#F1F1F1;width:246px;height:30px;font-weight:bold;padding:0 0 0 12px;font-size:11px;">Settings</td>
 			</tr>
 		</table>
-		<br/>
 		<table cellspacing="" cellpadding="0" border="0">
 			<tr>
 				<td><label for="widget-recent-posts-__i__-title">Title:</label></td>
@@ -179,18 +179,42 @@ class iDump_Sidebar_Widget extends WP_Widget {
 				<td><input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" style="width:222px;" value="<?php echo $instance['title']; ?>" /></td>
 			</tr>
 		</table>
-		<table cellspacing="" cellpadding="0" border="0">
+		<table cellspacing="" cellpadding="0" border="0" style="padding:0 0 15px 0;">
 			<tr>
 				<td><label style="float:left;width:174px;" for="widget-recent-posts-__i__-number">Amount to show:</label></td>
-				<td><input id="<?php echo $this->get_field_id( 'limit' ); ?>" name="<?php echo $this->get_field_name( 'limit' ); ?>" type="text" value="<?php echo $instance['limit']; ?>" size="3" /></td>
+				<td><input style="text-align:right;" id="<?php echo $this->get_field_id( 'limit' ); ?>" name="<?php echo $this->get_field_name( 'limit' ); ?>" type="text" value="<?php echo $instance['limit']; ?>" size="3" /></td>
 			</tr>
 			<tr>
 				<td><label style="float:left;width:174px;" for="widget-recent-posts-__i__-number">Width:</label></td>
-				<td><input id="<?php echo $this->get_field_id( 'width' ); ?>" name="<?php echo $this->get_field_name( 'width' ); ?>" type="text" value="<?php echo $instance['width']; ?>" size="3" /></td>
+				<td><input style="text-align:right;" id="<?php echo $this->get_field_id( 'width' ); ?>" name="<?php echo $this->get_field_name( 'width' ); ?>" type="text" value="<?php echo $instance['width']; ?>" size="3" /></td>
 			</tr>
 			<tr>
 				<td><label style="float:left;width:174px;" for="widget-recent-posts-__i__-number">Height:</label></td>
-				<td><input id="<?php echo $this->get_field_id( 'height' ); ?>" name="<?php echo $this->get_field_name( 'height' ); ?>" type="text" value="<?php echo $instance['height']; ?>" size="3" /></td>
+				<td><input style="text-align:right;" id="<?php echo $this->get_field_id( 'height' ); ?>" name="<?php echo $this->get_field_name( 'height' ); ?>" type="text" value="<?php echo $instance['height']; ?>" size="3" /></td>
+			</tr>
+		</table>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td class="widtitle" style="background-color:#F1F1F1;width:246px;height:30px;font-weight:bold;padding:0 0 0 12px;font-size:11px;">CSS</td>
+			</tr>
+		</table>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td><label style="float:left;width:160px;" for="widget-recent-posts-__i__-number">Border width:</label></td>
+				<td><input class="widefat" maxlength="2" style="text-align:center;width:25px;" id="<?php echo $this->get_field_id( 'borderpx' ); ?>" name="<?php echo $this->get_field_name( 'borderpx' ); ?>" type="text" value="<?php echo $instance['borderpx']; ?>" size="2" /></td>
+				<td><input style="text-align:center;width:25px;" class="widefat" value="px" size="2" disabled /></td>
+			</tr>
+		</table>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td><label style="float:left;width:161px;" for="widget-recent-posts-__i__-number">Border style:</label></td>
+				<td><input style="text-align:right;" class="widefat" id="<?php echo $this->get_field_id( 'borderstyle' ); ?>" name="<?php echo $this->get_field_name( 'borderstyle' ); ?>" type="text" value="<?php echo $instance['borderstyle']; ?>" size="7" /></td>
+			</tr>
+		</table>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td><label style="float:left;width:150px;" for="widget-recent-posts-__i__-number">Border color:</label></td>
+				<td><input  style="text-align:left;" class="widefat" id="<?php echo $this->get_field_id( 'bordercolor' ); ?>" name="<?php echo $this->get_field_name( 'bordercolor' ); ?>" type="text" value="<?php echo $instance['bordercolor']; ?>" size="7" /></td>
 			</tr>
 		</table>
 		<br/>
