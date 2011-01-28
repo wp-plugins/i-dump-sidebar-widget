@@ -3,7 +3,7 @@
  * Plugin Name: i-Dump Sidebar Widget
  * Plugin URI: http://wordpress.org/extend/plugins/i-dump-sidebar-widget
  * Description: The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar. Of course you can setup your desired settings for the Widget. For this plugin you need the WP-Dump application, available in the AppStore on the iPhone and the i-Dump plugin.
- * Version: 1.1.5
+ * Version: 1.1.6
  * Author: Joey Schuurbiers
  * Author URI: http://www.webdesign-support.com
  *
@@ -29,8 +29,30 @@ function idump_load_widgets() {
 }
 
 function my_css() {
-    echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') .'/wp-content/plugins/i-dump-sidebar-widget/style.css" />' . "\n";
+echo "<style type=\"text/css\">
+.idump-sidebar-widget{
+overflow:hidden;
 }
+.idump-sidebar-widget img{
+margin:0 5px 5px 0;
+float:left;
+padding:2px 2px 2px 2px;
+background-color:#F8F8F8;
+}
+.idump-sidebar-widget a:hover img{
+background-color:#00ADEE;
+}
+.error_widget{
+color:red;
+text-decoration:none;
+}
+.error_widget:hover{
+color:red;
+text-decoration:underline;
+}
+</style>";
+}
+
 
 add_action('wp_head', 'my_css');
 
