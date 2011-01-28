@@ -1,4 +1,7 @@
 /* idump-sidebar-widget */
+.idump-sidebar-widget{
+overflow:hidden;
+}
 .idump-sidebar-widget img{
 margin:0 5px 5px 0;
 float:left;
