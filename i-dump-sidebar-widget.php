@@ -3,7 +3,7 @@
  * Plugin Name: i-Dump Sidebar Widget
  * Plugin URI: http://wordpress.org/extend/plugins/i-dump-sidebar-widget
  * Description: The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar. Of course you can setup your desired settings for the Widget. For this plugin you need the WP-Dump application, available in the AppStore on the iPhone and the i-Dump plugin.
- * Version: 1.1.7
+ * Version: 1.2
  * Author: Joey Schuurbiers
  * Author URI: http://www.webdesign-support.com
  *
@@ -110,7 +110,12 @@ class iDump_Sidebar_Widget extends WP_Widget {
 
         while ($record = mysql_fetch_object($sql)){
 
-           // $time = date('d-m-Y', $record->date);
+				if ($record->text == ''){
+				$mark = date('Y-m-d', $record->date);
+				}else{
+				$mark = $record->text ;
+				}
+			
             $blog_url = get_bloginfo('wpurl');
             $file = $blog_url . '/wp-content/uploads/i-dump-uploads/' . $record->file; 
             $filethumb = $blog_url . '/wp-content/uploads/i-dump-uploads/thumbnails/' . $record->file;
@@ -120,7 +125,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
 			$borderpx = $instance['borderpx'];
 			$borderstyle = $instance['borderstyle'];
                         
-            echo '<a href="' . $file . '"><img style="border:' . $borderpx . 'px ' . $borderstyle . ' ' . $bordercolor . ';" src="' . $filethumb . '" alt="' . $time . '" width="' . $width . '" height="' . $height . '" /></a>';
+            echo '<a href="' . $file . '"><img style="border:' . $borderpx . 'px ' . $borderstyle . ' ' . $bordercolor . ';" src="' . $filethumb . '" alt="' . $mark . '" width="' . $width . '" height="' . $height . '" /></a>';
         }
   } else {
 	echo 'Please install <a class="error_widget" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump Plugin</a> first';

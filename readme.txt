@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QWSSG
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images
 Requires at least: 3.0
 Tested up to: 3.0.4
-Stable tag: 1.1.7
+Stable tag: 1.2
 
 The i-Dump Sidebar Widget will show your pictures into your sidebar. You'll need the i-Dump plugin first.
 
@@ -48,7 +48,10 @@ For more information or suggestions you can <a href="mailto:development@i-dump.i
 
 == Changelog ==
 
-= Current: Version 1.1.7 =
+= Current: Version 1.2 =
+* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2, this caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of uploading the image.
+
+= Version 1.1.7 =
 * <strong>Extra feature</strong>: You can style your own border on your i-Dump Sidebar Widget pictures. You can check this out by going to the Appearance -> Widgets -> i-Dump Sidebar Widget.
 
 = Version 1.1.6 =
@@ -73,8 +76,8 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
 
-= Version 1.1.7 =
-* <strong>Extra feature</strong>: You can style your own border on your i-Dump Sidebar Widget pictures. You can check this out by going to the Appearance -> Widgets -> i-Dump Sidebar Widget.
+= Version 1.2 =
+* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2, this caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of uploading the image.
 
 == About this Widget ==
 
