@@ -18,13 +18,13 @@ The i-Dump Sidebar Widget will show your pictures into your sidebar. Of course y
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to 'Appearance' -> 'Widgets' into your WordPress Menu, and see the new 'i-Dump Sidebar Widget' widget.
 4. Setup your desired settings, so how many pictures you want to show down into your sidebar, what will be the 'width' and 'height' for all pictures and the CSS for your pictures.
-5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.4 and higher) for WordPress and download the <a href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> (v1.1) on your iPhone before you can run the i-Dump Sidebar Widget!
+5. <strong>Caution</strong>: Install the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.4 or higher) for WordPress and download the <a href="http://itunes.apple.com/us/app/wp-dump/id413231620?mt=8&ls=1">WP-Dump application</a> (v1.1 or higher) on your iPhone before you can run the i-Dump Sidebar Widget!
 
 == Frequently Asked Questions ==
 
 = My widget is not working? =
 
-That could be possible, because you will need to download the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.4 and higher) first before you can run this widget.
+That could be possible, because you will need to download the <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> (v1.1.4 or higher) first before you can run this widget.
 
 = What do I need to make the i-Dump Sidebar Widget work? =
 
@@ -49,7 +49,7 @@ For more information or suggestions you can <a href="mailto:development@i-dump.i
 == Changelog ==
 
 = Current: Version 1.2 =
-* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2, this caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of uploading the image.
+* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of uploading the image.
 
 = Version 1.1.7 =
 * <strong>Extra feature</strong>: You can style your own border on your i-Dump Sidebar Widget pictures. You can check this out by going to the Appearance -> Widgets -> i-Dump Sidebar Widget.
@@ -77,11 +77,11 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 == Upgrade Notice == 
 
 = Version 1.2 =
-* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2, this caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of uploading the image.
+* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of uploading the image.
 
 == About this Widget ==
 
-This version of i-Dump Sidebar Widget (v1.2), will be working correctly with the WP-Dump application (v1.2) for iPhone and the i-Dump plugin (v1.2 or higher).
+This version of i-Dump Sidebar Widget (v1.2), will be working correctly with the WP-Dump application (v1.1 or higher) for iPhone and the i-Dump plugin (v1.2 or higher).
 <strong>The <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> is a must have for running the i-Dump Sidebar Widget!</strong>
 
 For more information or suggestions you can <a href="mailto:development@i-dump.info">contact the developer</a> of the i-Dump Sidebar Widget.
