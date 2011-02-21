@@ -1,7 +1,7 @@
 === i-Dump Sidebar Widget ===
 Contributors: Joey Schuurbiers
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QWSSG9TCANPE6&lc=US&item_name=Please%20keep%20us%20alive%21&item_number=Joey%20Schuurbiers&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
-Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images
+Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images,joey schuurbiers, schuurbiers, joey,caption,title,dump,dumps
 Requires at least: 3.0
 Tested up to: 3.0.5
 Stable tag: 1.3
