@@ -49,7 +49,7 @@ For more information or suggestions you can <a href="mailto:development@i-dump.i
 == Changelog ==
 
 = Current: Version 1.2 =
-* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of the uploaded image.
+* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you've filled in, is now visible in the widget. If you don't add a caption, you'll see the date of the uploaded image.
 
 = Version 1.1.7 =
 * <strong>Extra feature</strong>: You can style your own border on your i-Dump Sidebar Widget pictures. You can check this out by going to the Appearance -> Widgets -> i-Dump Sidebar Widget.
@@ -77,7 +77,7 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 == Upgrade Notice == 
 
 = Version 1.2 =
-* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you filled in, is now visible in the widget. If you don't add a caption, you'll see the date of the uploaded image.
+* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you've filled in, is now visible in the widget. If you don't add a caption, you'll see the date of the uploaded image.
 
 == About this Widget ==
 
