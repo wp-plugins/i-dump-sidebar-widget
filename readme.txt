@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QWSSG
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images
 Requires at least: 3.0
 Tested up to: 3.0.5
-Stable tag: 1.2
+Stable tag: 1.3
 
 The i-Dump Sidebar Widget will show your pictures into your sidebar. You'll need the i-Dump plugin first.
 
@@ -48,7 +48,10 @@ For more information or suggestions you can <a href="mailto:development@i-dump.i
 
 == Changelog ==
 
-= Current: Version 1.2 =
+= Current: Version 1.3 =
+* <strong>Caption and CSS</strong>: The caption of the image is now added into the sidebar widget itself. You can style this caption in the widget settings of course.
+
+= Version 1.2 =
 * <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you've filled in, is now visible in the widget. If you don't add a caption, you'll see the date of the uploaded image.
 
 = Version 1.1.7 =
@@ -76,12 +79,12 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
 
-= Version 1.2 =
-* <strong>Title tag</strong>: You can add a caption on your image with WP-Dump v1.2 or higher. This caption you've filled in, is now visible in the widget. If you don't add a caption, you'll see the date of the uploaded image.
+= Version 1.3 =
+* <strong>Caption and CSS</strong>: The caption of the image is now added into the sidebar widget itself. You can style this caption in the widget settings of course.
 
 == About this Widget ==
 
-This version of i-Dump Sidebar Widget (v1.2), will be working correctly with the WP-Dump application (v1.1 or higher) for iPhone and the i-Dump plugin (v1.2 or higher).
+This version of i-Dump Sidebar Widget (v1.3), will be working correctly with the WP-Dump application (v1.1 or higher) for iPhone and the i-Dump plugin (v1.2 or higher).
 <strong>The <a href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader/">i-Dump plugin</a> is a must have for running the i-Dump Sidebar Widget!</strong>
 
 For more information or suggestions you can <a href="mailto:development@i-dump.info">contact the developer</a> of the i-Dump Sidebar Widget.

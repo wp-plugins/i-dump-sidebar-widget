@@ -3,7 +3,7 @@
  * Plugin Name: i-Dump Sidebar Widget
  * Plugin URI: http://wordpress.org/extend/plugins/i-dump-sidebar-widget
  * Description: The i-Dump Sidebar Widget will show down your uploaded photos made with your iPhone in the sidebar. Of course you can setup your desired settings for the Widget. For this plugin you need the WP-Dump application, available in the AppStore on the iPhone and the i-Dump plugin.
- * Version: 1.2
+ * Version: 1.3
  * Author: Joey Schuurbiers
  * Author URI: http://www.webdesign-support.com
  *
@@ -45,6 +45,14 @@ text-decoration:none;
 .error_widget:hover{
 color:red;
 text-decoration:underline;
+}
+.item{
+float:left;
+margin:0 0 15px 0;
+text-align:center;
+}
+.item span{
+display:block;
 }
 </style>";
 }
@@ -124,8 +132,9 @@ class iDump_Sidebar_Widget extends WP_Widget {
 			$bordercolor = $instance['bordercolor'];
 			$borderpx = $instance['borderpx'];
 			$borderstyle = $instance['borderstyle'];
+			$capcolor = $instance['capcolor'];
                         
-            echo '<a href="' . $file . '"><img style="border:' . $borderpx . 'px ' . $borderstyle . ' ' . $bordercolor . ';" src="' . $filethumb . '" alt="' . $mark . '" width="' . $width . '" height="' . $height . '" /></a>';
+            echo '<div class="item"><a href="' . $file . '"><img style="border:' . $borderpx . 'px ' . $borderstyle . ' ' . $bordercolor . ';" src="' . $filethumb . '" alt="' . $mark . '" width="' . $width . '" height="' . $height . '" /></a><span class="caption" style="color:' . $capcolor . ';">' . $mark . '</span></div>';
         }
   } else {
 	echo 'Please install <a class="error_widget" target="_blank" href="http://wordpress.org/extend/plugins/i-dump-iphone-to-wordpress-photo-uploader">i-Dump Plugin</a> first';
@@ -153,6 +162,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
 		$instance['bordercolor'] = strip_tags( $new_instance['bordercolor'] );
 		$instance['borderpx'] = strip_tags( $new_instance['borderpx'] );
 		$instance['borderstyle'] = strip_tags( $new_instance['borderstyle'] );
+		$instance['capcolor'] = strip_tags( $new_instance['capcolor'] );
 
 		return $instance;
 	}
@@ -168,7 +178,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
         
         <?php
 		/* Set up some default widget settings. */
-		$defaults = array( 'title' => __('i-Dump Sidebar Widget', 'title'), 'limit' => __('4', 'limit'), 'width' => __('80', 'width'), 'height' => __('80','height'), 'bordercolor' => __('#00ADEE','bordercolor'), 'borderpx' => __('2','borderpx'), 'borderstyle' => __('solid','borderstyle'));
+		$defaults = array( 'title' => __('i-Dump Sidebar Widget', 'title'), 'limit' => __('4', 'limit'), 'width' => __('80', 'width'), 'height' => __('80','height'), 'bordercolor' => __('#000000','bordercolor'), 'borderpx' => __('1','borderpx'), 'borderstyle' => __('solid','borderstyle'), 'capcolor' => __('#000000','capcolor'));
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 		<table cellspacing="" cellpadding="0" border="0">
@@ -200,7 +210,7 @@ class iDump_Sidebar_Widget extends WP_Widget {
 		</table>
 		<table cellspacing="" cellpadding="0" border="0">
 			<tr>
-				<td class="widtitle" style="background-color:#F1F1F1;width:246px;height:30px;font-weight:bold;padding:0 0 0 12px;font-size:11px;">CSS</td>
+				<td class="widtitle" style="background-color:#F1F1F1;width:246px;height:30px;font-weight:bold;padding:0 0 0 12px;font-size:11px;">Border</td>
 			</tr>
 		</table>
 		<table cellspacing="" cellpadding="0" border="0">
@@ -220,6 +230,18 @@ class iDump_Sidebar_Widget extends WP_Widget {
 			<tr>
 				<td><label style="float:left;width:150px;" for="widget-recent-posts-__i__-number">Border color:</label></td>
 				<td><input  style="text-align:left;" class="widefat" id="<?php echo $this->get_field_id( 'bordercolor' ); ?>" name="<?php echo $this->get_field_name( 'bordercolor' ); ?>" type="text" value="<?php echo $instance['bordercolor']; ?>" size="7" /></td>
+			</tr>
+		</table>
+		<br/>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td class="widtitle" style="background-color:#F1F1F1;width:246px;height:30px;font-weight:bold;padding:0 0 0 12px;font-size:11px;">Caption</td>
+			</tr>
+		</table>
+		<table cellspacing="" cellpadding="0" border="0">
+			<tr>
+				<td><label style="float:left;width:150px;" for="widget-recent-posts-__i__-number">Caption color:</label></td>
+				<td><input  style="text-align:left;" class="widefat" id="<?php echo $this->get_field_id( 'capcolor' ); ?>" name="<?php echo $this->get_field_name( 'capcolor' ); ?>" type="text" value="<?php echo $instance['capcolor']; ?>" size="7" /></td>
 			</tr>
 		</table>
 		<br/>
