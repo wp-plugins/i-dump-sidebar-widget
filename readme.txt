@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QWSSG
 Tags: idump,i-dump,idump widget,sidebar widget,sidebar,widget,gallery,photos,wpdump,dump,mobile,iphone,image,images,joey schuurbiers,schuurbiers,joey,caption,title,dump,dumps
 Requires at least: 3.0
 Tested up to: 3.0.3
-Stable tag: 1.3
+Stable tag: 1.4
 
 The i-Dump Sidebar Widget will show your pictures into your sidebar. You'll need the i-Dump plugin first.
 
@@ -48,7 +48,10 @@ For more information or suggestions you can <a href="mailto:development@i-dump.i
 
 == Changelog ==
 
-= Current: Version 1.3 =
+= Current: Version 1.4 =
+* <strong>Caption and CSS removed</strong>: This give more issues then we aspect.
+
+= Version 1.3 =
 * <strong>Caption and CSS</strong>: The caption of the image is now added into the sidebar widget itself. You can style this caption in the widget settings of course.
 
 = Version 1.2 =
@@ -79,7 +82,8 @@ The i-Dump plugin is a must have for running the i-Dump Sidebar Widget.
 
 == Upgrade Notice == 
 
-= Version 1.3 =
+= Version 1.4 =
+* <strong>Caption and CSS removed</strong>: This give more issues then we aspect.
 * <strong>Caption and CSS</strong>: The caption of the image is now added into the sidebar widget itself. You can style this caption in the widget settings of course.
 
 == About this Widget ==
