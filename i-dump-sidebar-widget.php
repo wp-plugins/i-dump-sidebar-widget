@@ -48,11 +48,7 @@ text-decoration:underline;
 }
 .item{
 float:left;
-margin:0 0 15px 0;
 text-align:center;
-}
-.item span{
-display:block;
 }
 </style>";
 }
